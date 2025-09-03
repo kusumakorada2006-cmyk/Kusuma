@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supercar Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <!-- Sidebar + Main Layout -->
+  <div class="flex">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-gray-900 text-white min-h-screen p-6">
+      <h1 class="text-2xl font-bold mb-6">SuperCar Sales</h1>
+      <nav>
+        <ul class="space-y-4">
+          <li><a href="#" class="block hover:text-yellow-400">Dashboard</a></li>
+          <li><a href="#" class="block hover:text-yellow-400">Inventory</a></li>
+          <li><a href="#" class="block hover:text-yellow-400">Orders</a></li>
+          <li><a href="#" class="block hover:text-yellow-400">Customers</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main content -->
+    <main class="flex-1 p-8">
+      <h2 class="text-3xl font-semibold mb-6">Available Supercars</h2>
+
+      <!-- Car grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Car Card -->
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="https://cdn.motor1.com/images/mgl/0ANVx/s1/bugatti-chiron.jpg" alt="Bugatti Chiron" class="h-48 w-full object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Bugatti Chiron</h3>
+            <p class="text-gray-600">Top Speed: 420 km/h</p>
+            <p class="text-yellow-600 font-bold mt-2">$3,000,000</p>
+            <button class="mt-3 w-full bg-yellow-500 hover:bg-yellow-600 text-white py-2 rounded-xl">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="https://cdn.motor1.com/images/mgl/v77qq/s1/ferrari-sf90-stradale.jpg" alt="Ferrari SF90" class="h-48 w-full object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Ferrari SF90 Stradale</h3>
+            <p class="text-gray-600">Top Speed: 340 km/h</p>
+            <p class="text-yellow-600 font-bold mt-2">$625,000</p>
+            <button class="mt-3 w-full bg-yellow-500 hover:bg-yellow-600 text-white py-2 rounded-xl">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="https://cdn.motor1.com/images/mgl/n7BB3/s1/lamborghini-aventador-svj.jpg" alt="Lamborghini Aventador" class="h-48 w-full object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Lamborghini Aventador SVJ</h3>
+            <p class="text-gray-600">Top Speed: 350 km/h</p>
+            <p class="text-yellow-600 font-bold mt-2">$517,000</p>
+            <button class="mt-3 w-full bg-yellow-500 hover:bg-yellow-600 text-white py-2 rounded-xl">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="https://cdn.motor1.com/images/mgl/0kkJb/s1/mclaren-720s.jpg" alt="McLaren 720S" class="h-48 w-full object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">McLaren 720S</h3>
+            <p class="text-gray-600">Top Speed: 341 km/h</p>
+            <p class="text-yellow-600 font-bold mt-2">$299,000</p>
+            <button class="mt-3 w-full bg-yellow-500 hover:bg-yellow-600 text-white py-2 rounded-xl">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="https://cdn.motor1.com/images/mgl/02kkb/s1/aston-martin-valkyrie.jpg" alt="Aston Martin Valkyrie" class="h-48 w-full object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Aston Martin Valkyrie</h3>
+            <p class="text-gray-600">Top Speed: 354 km/h</p>
+            <p class="text-yellow-600 font-bold mt-2">$3,200,000</p>
+            <button class="mt-3 w-full bg-yellow-500 hover:bg-yellow-600 text-white py-2 rounded-xl">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="https://cdn.motor1.com/images/mgl/xxk44/s1/pagani-huayra-roadster.jpg" alt="Pagani Huayra" class="h-48 w-full object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Pagani Huayra Roadster</h3>
+            <p class="text-gray-600">Top Speed: 383 km/h</p>
+            <p class="text-yellow-600 font-bold mt-2">$2,600,000</p>
+            <button class="mt-3 w-full bg-yellow-500 hover:bg-yellow-600 text-white py-2 rounded-xl">Buy Now</button>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+</body>
+</html>
